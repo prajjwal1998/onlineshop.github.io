@@ -1,0 +1,84 @@
+#slide{
+	position: relative;
+margin-top: 8px;
+	float: left;
+	width: 1370px;
+	margin-left: -10px;
+	overflow: hidden;
+}
+
+#slider{	z-index: -40;
+	position: relative;
+	width: 5480px;
+	animation-name: anim;
+	animation-duration: 20s;
+	animation-iteration-count: infinite;
+
+}
+#slider img{	
+	width:1370px;
+	float: left;
+height: 350px;
+	
+}
+
+
+@keyframes anim{
+	0%{
+		left: 0;
+	}
+	
+	20%{
+		left: 0;
+	}
+	25%{
+		left: -1370px;
+	}
+	45%{ left: -1370px;}
+	50%{left: -2740px;}
+	70%{left: -2740px;}
+75%{left: -4110px;}
+95%{left: -4110px;}
+
+}
+
+#im img{
+	width: 180px;
+	height: 100px;
+	margin-left: 20px;
+	margin-top: 5px;
+
+}
+
+#cat{
+	position: absolute;
+	margin-top: 400px;
+	margin-left: 170px;
+}
+
+#c:hover{
+	text-decoration: underline;
+}
+
+#end img{
+	width: 100px; height: 50px;
+	margin-left: 420px;
+}
+#heading{ 
+position: relative;
+float: left;
+margin-left:12px;
+}
+
+#heading:hover{
+	text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
